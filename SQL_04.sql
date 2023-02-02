@@ -1,0 +1,1 @@
+SELECT tmahasiswa.*, tmatakuliah.* FROM tmahasiswa, tmatakuliah WHERE tmatakuliah.NamaMataKuliah="Matematika";

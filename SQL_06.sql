@@ -1,0 +1,1 @@
+SELECT tmahasiswa.NIRM, tmahasiswa.NamaMahasiswa, AVG(tnilai.Grade) FROM tmahasiswa, tnilai GROUP BY tmahasiswa.NIRM;

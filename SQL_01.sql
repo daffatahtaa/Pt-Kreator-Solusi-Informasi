@@ -1,0 +1,1 @@
+SELECT tmahasiswa.NIRM, tmahasiswa.NamaMahasiswa, tmatakuliah.KodeMK, tmatakuliah.NamaMataKuliah, tnilai.NIRM, tnilai.KodeMK from tmahasiswa, tmatakuliah, tnilai;

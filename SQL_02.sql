@@ -1,0 +1,1 @@
+SELECT tmahasiswa.NIRM, tmahasiswa.NamaMahasiswa, tmatakuliah.NamaMataKuliah, tnilai.Grade FROM tmahasiswa, tnilai, tmatakuliah WHERE tnilai.Grade < 60 AND (CURRENT_DATE - YEAR (tmahasiswa.TglLahir)) > 25;

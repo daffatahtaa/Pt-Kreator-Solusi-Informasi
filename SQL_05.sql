@@ -1,0 +1,1 @@
+SELECT tmahasiswa.*, tmatakuliah.*, tnilai.Grade FROM tmahasiswa, tmatakuliah, tnilai WHERE tmatakuliah.NamaMataKuliah="Matematika" AND tnilai.Grade BETWEEN 55 and 79;
